@@ -1,0 +1,46 @@
+section{
+    min-height: 100vh;
+    padding: 0rem 10% 2rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url("../../Images/bg.jpeg");
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-Top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.aboutMe{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content h3 {
+    font-size: 50px;
+    color: #ffffff;
+    padding:0 0 20px;
+    text-align: center;
+    font-weight: 900;
+  }
+.about-content p {
+    font-size: 25px;
+    color: #f6eeee;
+    margin-right: 100px;
+    
+  }
+
+.about-img img{
+    width: 500px;
+    display: block;
+    height: 500px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    object-fit: contain;
+    animation: rotate 2s infinite ease alternate;
+}
+    @keyframes rotate {
+        to{
+            transform: translateY(30px);
+        }
+    };

@@ -1,0 +1,45 @@
+.certificate {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+
+  .column {
+    
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    
+    
+  }
+  
+  .image {
+    background-color: #ddd;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    max-height: 200px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .certificate {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  
+  .certificate img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  

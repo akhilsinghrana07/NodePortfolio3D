@@ -1,0 +1,71 @@
+section {
+    min-height: 100vh;
+    padding: 0rem 10% 2rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url("../../Images/bg.jpeg");
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    display: flex;
+  }
+  
+  .box-geometry canvas {
+    width: 600px;
+    height: 600px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+  
+  .skill {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .skill-content {
+    flex: 1;
+  }
+  
+  .skill-content h3 {
+    font-size: 50px;
+    color: #ffffff;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: 900;
+  }
+  .skill-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: #f6eeee;
+  }
+  
+  .skill-list ul {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: disc;
+  }
+  
+  .skill-list li {
+    margin: 5px 0;
+    padding-bottom: 5px;
+  }
+  
+  .skill-content p {
+    font-size: 25px;
+    color: #f6eeee;
+    /* Add any other styles you want */
+  }
+  

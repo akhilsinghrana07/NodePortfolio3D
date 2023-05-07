@@ -1,0 +1,30 @@
+.homeCanvas {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+h1 {
+    color: rgb(254, 254, 254);
+    font-size: 55px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+  }
+
+.homeSkills {
+    background-color: #f5f5f5;
+    display: flex;
+    height: 1500px;
+    position: relative;
+    perspective: 450px;
+    padding: 200px;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
