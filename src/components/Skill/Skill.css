@@ -18,7 +18,7 @@
     align-items: center;
     flex: 1;
     min-height: 100vh;
-    padding: 2rem 10% 2rem;
+    padding: 1rem 10% 1rem;
     font-family: 'Ubuntu Mono', monospace;
     background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
     border-bottom-left-radius: 10%;
@@ -34,7 +34,7 @@
   .skill-content h3 {
     font-size: 4rem;
     color: #ffffff;
-    padding: 0 0 20px;
+    padding: 0 0 2rem;
     text-align: center;
     font-weight: 900;
   }
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #f6eeee;
   }
   
@@ -55,12 +55,12 @@
   }
   
   .skill-list li {
-    margin: 5px 0;
+    margin: 5% 0;
     padding-bottom: 5px;
   }
   
   .skill-content p {
-    font-size: 25px;
+    font-size: 25%;
     color: #f6eeee;
     /* Add any other styles you want */
   }
