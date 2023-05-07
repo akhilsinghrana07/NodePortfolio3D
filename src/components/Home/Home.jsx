@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import "./Home.css";
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import earthImage from "../../Images/earth2.jpg"
 import earthBump from "../../Images/earthbump.jpg"
 import galaxy from "../../Images/galaxy.jpg"
