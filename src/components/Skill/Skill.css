@@ -2,7 +2,7 @@ section {
     min-height: 100vh;
     padding: 0rem 10% 2rem;
     font-family: 'Ubuntu Mono', monospace;
-    background-image: url("../../Images/bg.jpeg");
+    background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     border-top-left-radius: 10%;
