@@ -1,45 +1,65 @@
+
+
 .certificate {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 1fr 1fr;
-  gap: 20px;
-  justify-items: center;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 7% 2rem;
+  background-image: url("../../Images/bg.jpeg");
+  font-family: 'Ubuntu Mono', monospace;
+  background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
+  border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-container h2{
+  font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+
+}
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.5rem;
 }
 
+.column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 0rem;
+}
 
-  .column {
-    
-    display: grid;
-    grid-template-rows: 0.5fr 1fr;
-    
-    
-  }
-  
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certimg {
+  width: 100%;
+  height: auto;
+}
   .image {
-    background-color: #ddd;
-    display: flex;
-    margin-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .image img {
-    max-height: 200px;
-    max-width: 100%;
-    object-fit: contain;
-  }
-  
-  .certificate {
-    background-color: #eee;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    margin-top: 5px;
   }
   
-  .certificate img {
-    height: 400px;
+  
+  .column img {
+    height: 10rem;
     width: 100%;
-    object-fit: cover;
   }
-  
+  .column .certimg{
+    height: 20rem;
+    width: 100%;
+  }

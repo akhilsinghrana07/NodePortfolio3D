@@ -1,16 +1,4 @@
-section {
-    min-height: 100vh;
-    padding: 0rem 10% 2rem;
-    font-family: 'Ubuntu Mono', monospace;
-    background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    display: flex;
-  }
-  
-  .box-geometry canvas {
+ .box-geometry canvas {
     width: 600px;
     height: 600px;
     display: block;
@@ -29,6 +17,14 @@ section {
     justify-content: center;
     align-items: center;
     flex: 1;
+    min-height: 100vh;
+    padding: 2rem 10% 2rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
   }
   
   .skill-content {
@@ -36,7 +32,7 @@ section {
   }
   
   .skill-content h3 {
-    font-size: 50px;
+    font-size: 4rem;
     color: #ffffff;
     padding: 0 0 20px;
     text-align: center;
@@ -46,7 +42,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 25px;
+    font-size: 20px;
     color: #f6eeee;
   }
   

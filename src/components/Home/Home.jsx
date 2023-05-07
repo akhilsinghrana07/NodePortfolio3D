@@ -18,7 +18,7 @@ const Home = () => {
     headingE2.innerText = 'Experience the future of programming in 3D Portfolio';
     // Position the heading on top of the canvas
     headingEl.style.position = 'absolute';
-    headingEl.style.top = '800px';
+    headingEl.style.top = '600px';
     headingEl.style.left = '100px';
     headingEl.style.zIndex = '1';
     
