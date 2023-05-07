@@ -1,11 +1,23 @@
-.skill {
-    
+ .box-geometry canvas {
+   
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+  
+  .skill {
+    margin: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
     min-height: 100vh;
-    padding: 2rem 10% 2rem;
+    padding: 1rem 10% 1rem;
     font-family: 'Ubuntu Mono', monospace;
     background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
     border-bottom-left-radius: 10%;
