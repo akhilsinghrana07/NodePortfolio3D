@@ -39,6 +39,7 @@ const Skill = () => {
       <li>Microsoft Excel (Macros, V-Lookup, Power Query)</li>
     </ul>
   </div>
+  <p>You can resize or move this cube by right clicking and dragging it with your mouse cursor</p>
 </div>
     
     </section>

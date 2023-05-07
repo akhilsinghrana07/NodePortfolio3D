@@ -1,6 +1,6 @@
  .box-geometry canvas {
-    width: 600px;
-    height: 600px;
+    width: 35rem;
+    height: 40rem;
     display: block;
     top: 0;
     bottom: 0;
@@ -63,5 +63,10 @@
     font-size: 25%;
     color: #f6eeee;
     /* Add any other styles you want */
+  }
+  .skill p{
+    text-align: center;
+    font-size: medium;
+    color: cyan;
   }
   
