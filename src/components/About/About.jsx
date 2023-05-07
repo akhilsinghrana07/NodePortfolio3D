@@ -15,7 +15,7 @@ const About = () => {
       </p>
       <br />
       <p> 
-      Please check out my portfolio and <a href="https://github.com/akhilsinghrana07">GitHub</a> to see my work and skills in action.
+      Please check out my portfolio and <a class="git"href="https://github.com/akhilsinghrana07">GitHub</a> to see my work and skills in action.
       </p>
     </div>
     <div className="about-img">

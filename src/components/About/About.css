@@ -25,6 +25,9 @@
     
   }
 
+.about-content a{
+    color: cyan;
+}
 .about-img img{
     width: 500px;
     display: block;
