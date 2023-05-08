@@ -1,71 +1,94 @@
- .box-geometry canvas {
-   
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    object-fit: contain;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-  }
-  
+.box-geometry canvas {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: contain;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.skill {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Ubuntu Mono', monospace;
+  background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
+  border-radius: 10%;
+}
+
+.skill-content {
+  flex: 1;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.skill-content h3 {
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 2rem 0 1rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #f6eeee;
+  width: 100%;
+  padding: 1rem;
+}
+
+.skill-list ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.skill-list li {
+  margin: 2% 0;
+  padding-bottom: 5px;
+}
+
+.skill-content p {
+  font-size: 1rem;
+  color: #f6eeee;
+}
+
+.skill p {
+  text-align: center;
+  font-size: 1rem;
+  color: cyan;
+  padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
   .skill {
-    margin: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    min-height: 100vh;
-    padding: 1rem 10% 1rem;
-    font-family: 'Ubuntu Mono', monospace;
-    background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+      flex-direction: row;
+      min-height: 100vh;
+      padding: 1rem 10%;
   }
-  
   .skill-content {
-    flex: 1;
-  }
-  
-  .skill-content h3 {
-    font-size: 4rem;
-    color: #ffffff;
-    padding: 0 0 2rem;
-    text-align: center;
-    font-weight: 900;
+      width: 50%;
+      padding: 2rem;
   }
   .skill-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 1.2rem;
-    color: #f6eeee;
+      flex-direction: row;
+      width: 100%;
+      padding: 2rem;
   }
-  
   .skill-list ul {
-    width: 45%;
-    margin: 0;
-    padding: 0;
-    
-    list-style-type: disc;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style-type: disc;
   }
-  
   .skill-list li {
-    margin: 5% 0;
-    padding-bottom: 5px;
+      margin: 0 2%;
   }
-  
-  .skill-content p {
-    font-size: 25%;
-    color: #f6eeee;
-    /* Add any other styles you want */
-  }
-  .skill p{
-    text-align: center;
-    font-size: medium;
-    color: cyan;
-  }
-  
+}

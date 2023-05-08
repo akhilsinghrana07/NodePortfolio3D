@@ -31,6 +31,24 @@ const Home = () => {
     headingE2.style.zIndex = '1';
     
     headingRef.current.appendChild(headingE2);
+
+    headingEl.classList.add('heading-1');
+    headingE2.classList.add('heading-2');
+    // Media query for mobile devices
+const mediaQuery = window.matchMedia('(max-width: 600px)');
+
+if (mediaQuery.matches) {
+  // Change the position and font size of the headings for mobile devices
+  headingEl.style.top = '750px';
+  headingEl.style.left = '50%';
+  headingEl.style.transform = 'translateX(-50%)';
+  headingEl.style.fontSize = '1.7rem';
+
+  headingE2.style.top = '50px';
+  headingE2.style.left = '50%';
+  headingE2.style.transform = 'translateX(-50%)';
+  headingE2.style.fontSize = '1.3rem';
+}
     const textureLoader = new THREE.TextureLoader();
 
     const earthtexture = textureLoader.load(earthImage);

@@ -1,46 +1,74 @@
-.aboutMe{
+.aboutMe {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 0rem 10% 2rem;
+    padding: 0rem 10%;
     font-family: 'Ubuntu Mono', monospace;
     background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    border-Top-left-radius: 10%;
-    border-top-right-radius: 10%;
-}
-.about-content h3 {
-    font-size: 50px;
+    border-radius: 10%;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .about-content h3 {
+    font-size: 3rem;
     color: #ffffff;
-    padding:0 0 20px;
+    padding: 0 0 1rem;
     text-align: center;
     font-weight: 900;
   }
-.about-content p {
-    font-size: 25px;
+  
+  .about-content p {
+    font-size: 1.5rem;
     color: #f6eeee;
-    margin-right: 100px;
-    
+    text-align: center;
+    margin-bottom: 2rem;
   }
-
-.about-content a{
+  
+  .about-content a {
     color: cyan;
-}
-.about-img img{
-    width: 500px;
-    display: block;
-    height: 500px;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+  }
+  
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
     animation: rotate 2s infinite ease alternate;
-}
-    @keyframes rotate {
-        to{
-            transform: translateY(30px);
-        }
-    };
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: translateY(2rem);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .aboutMe {
+      flex-direction: column;
+    }
+  
+    .about-content {
+      order: 2;
+      padding: 2rem 0;
+    }
+  
+    .about-img {
+      order: 1;
+      padding: 2rem 0;
+    }
+    
+  }
+    
