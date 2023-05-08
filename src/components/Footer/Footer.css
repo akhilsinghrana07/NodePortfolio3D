@@ -77,3 +77,35 @@
   .footerContactBtn:hover p {
     color: rgb(255, 255, 255);
   }
+
+  
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .footer > div:first-child {
+    margin-bottom: 2vmax;
+  }
+
+  .footer > div:last-child {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .footer > div > p {
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+
+
+  .footer > div:last-child > a {
+    font-size: 2.5vmax;
+  }
+
+  .footer > div > h5 {
+    width: 80px;
+  }
+}

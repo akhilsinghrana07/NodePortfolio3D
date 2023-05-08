@@ -10,7 +10,7 @@
 }
 
 .skill {
-  margin: 0.5rem;
+  margin: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,8 @@
   font-size: 1rem;
   color: #f6eeee;
   width: 100%;
-  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .skill-list ul {
@@ -53,11 +54,14 @@
 .skill-list li {
   margin: 2% 0;
   padding-bottom: 5px;
+  padding: 0.5rem 2rem;
 }
 
-.skill-content p {
+.skill p {
+  text-align: center;
   font-size: 1rem;
-  color: #f6eeee;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem; /* Add padding on both sides */
 }
 
 .skill p {
@@ -77,6 +81,7 @@
       width: 50%;
       padding: 2rem;
   }
+  
   .skill-list {
       flex-direction: row;
       width: 100%;
