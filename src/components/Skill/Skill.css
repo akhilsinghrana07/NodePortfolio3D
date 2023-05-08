@@ -18,6 +18,7 @@
   font-family: 'Ubuntu Mono', monospace;
   background-image: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
   border-radius: 10%;
+  margin-top: 0.4rem;
 }
 
 .skill-content {

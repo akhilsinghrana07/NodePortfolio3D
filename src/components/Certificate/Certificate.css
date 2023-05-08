@@ -5,6 +5,7 @@
   grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
+  margin-top: 0.4rem;
   padding: 1rem 7% 2rem;
   background-image: url("../../Images/bg.jpeg");
   font-family: 'Ubuntu Mono', monospace;

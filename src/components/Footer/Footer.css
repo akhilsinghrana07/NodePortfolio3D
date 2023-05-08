@@ -84,10 +84,12 @@
   .footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+    
   }
 
   .footer > div:first-child {
     margin-bottom: 2vmax;
+    
   }
 
   .footer > div:last-child {
