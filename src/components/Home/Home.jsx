@@ -16,22 +16,22 @@ const Home = () => {
     const headingE2 = document.createElement('h1');
     headingEl.innerText = 'Akhil Singh Rana';
     headingE2.innerText = 'Experience the future of programming in 3D Portfolio';
-    // Position the heading on top of the canvas
-    headingEl.style.position = 'absolute';
-    headingEl.style.top = '600px';
-    headingEl.style.left = '100px';
-    headingEl.style.zIndex = '1';
     
+    // Position the heading on top of the canvas
+    headingEl.style.top = '2rem';
+    headingEl.style.left = '50%';
+    headingEl.style.transform = 'translateX(-50%)';
+    headingEl.style.fontSize = '1.7rem';
+
+    headingE2.style.top = '4.2rem';
+    headingE2.style.left = '50%';
+    headingE2.style.transform = 'translateX(-50%)';
+    headingE2.style.fontSize = '1.4rem';
     
     // Append the heading element to the container
     headingRef.current.appendChild(headingEl);
-    headingE2.style.position = 'absolute';
-    headingE2.style.top = '50px';
-    headingE2.style.left = '200px';
-    headingE2.style.zIndex = '1';
-    
     headingRef.current.appendChild(headingE2);
-
+  
     headingEl.classList.add('heading-1');
     headingE2.classList.add('heading-2');
     // Media query for mobile devices
