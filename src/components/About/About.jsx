@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-content">
       <h3>About Me</h3>
        <p>
-       Hi, Akhil Singh Rana, I am a passionate software engineer who recently graduated with a PG diploma in Software Engineer Technology from Centennial College and also holds Bachelor's degree in Computer Science and Engineering.  I have experience as a software engineer at Doodleblue Innovations and a data engineer intern at ACIL Technology Pvt. Ltd.
+       Hi, Akhil Singh Rana, I am a passionate software Engineering who recently graduated with a PG diploma in Software Engineer Technology from Centennial College and also holds Bachelor's degree in Computer Science and Engineering.  I have experience as a software engineer at Doodleblue Innovations and a data engineer intern at ACIL Technology Pvt. Ltd.
       </p>
       <br />
       <p>
